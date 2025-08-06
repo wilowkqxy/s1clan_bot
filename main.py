@@ -10,7 +10,7 @@ from lang import *
 
 waitingfor = []
 
-logChatIds = [1307705984,1143193416]
+logChatIds = [] # user id челов которым будут логи приходить
 
 model_ai = "gemini-2.5-flash"
 GOOGLE_GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{model_ai}:generateContent"
